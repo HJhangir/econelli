@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:  rgb(83, 125, 182);
+    /* margin-bottom: 10px; */
+}
+
+.logo p{
+    font-size: 35px;
+    padding: 20px 0;
+}
+.nav{
+    display: flex;
+    gap: 50px;
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(22, 56, 100);
+    font-weight: bold;
+    font-size: 20px;
+}
+/* .rechts img{
+    width: 500px;
+} */
+.links{
+    text-align: center;
+    padding-top: 20px ;   
+}
+.links h1{
+    width:55%;  
+    color: rgb(22, 56, 100);
+
+}
+.links h2{
+    letter-spacing: .15em;
+    color: rgb(22, 56, 100);
+
+}
+.study_abroad{
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    /* display: flex; */
+    text-align: center;
+    justify-content: center;
+    /* padding: 0 15px; */
+    width: 100%;
+    /* margin-top: -510px; */
+ 
+}
+
+.study_button img{
+    width: 80%;
+
+}
+
+.hizmetler{
+    text-align: center;
+    padding-top: 140px;
+
+}
+.hizmetler h2{
+    font-size: 40px;
+    color: rgb(22, 56, 100);
+
+}
+.hzm-p {
+    font-size:30px ;
+    color: rgb(22, 56, 100);
+
+}
+.hzmts{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    padding-top: 20px;
+
+}
+.hzmt{
+    /* border: 1px solid red; */
+    width: 20%;
+    transition: .5s;
+    text-align: start;
+
+
+}
+.hzmt:hover{
+    background-color: rgb(252, 252, 252);
+    box-shadow:5px 10px 5px 2px rgb(244, 241, 241);;
+}
+
+.hzmt i{
+    font-size: 45px;
+    color: rgb(22, 56, 100);
+
+}
+.hzmt p{
+    font-size: 18px;
+    /* border: 1px solid red; */
+    color: rgb(22, 56, 100);
+    font-weight: bolder;
+    padding: 10px 0 ;
+}
+.hzmt span{
+    font-size: 14px;
+}
+.basharilar{
+    padding-top: 140px;    
+}
+.bashans{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100% ;
+    /* padding-left: 100px; */
+    /* border: 1px solid red; */
+}
+
+.basharilar h2{
+    font-size: 40px;
+    color: rgb(22, 56, 100);
+    text-align: center;
+
+}
+
+.bash-zwei p:nth-child(2){
+    width: 500px
+}
+.bash-zwei h1{
+    font-size: 35px;
+}
+.bash-zwei span{
+    color: black;
+}
+.bash-zwei p{
+    padding: 10px 0;
+}
+.he:hover{
+    background-color: rgb(252, 252, 252);
+    box-shadow:5px 10px 5px 2px rgb(244, 241, 241);;
+}
+
+.he{
+    color: rgb(22, 56, 100);
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    transition: .5s;
+}
+.he p{
+    color: black;
+    width: 300px;
+    padding: 10px 0 ;
+
+}
+
+.he h4{
+    padding-top: 10px;
+}
+
+.bgnn{
+    display: flex;
+    gap: 30px;
+}
+
+.bash-zwei p:nth-child(2){
+    width: 500px
+}
+.bash-zwei h1{
+    font-size: 35px;
+    color: rgb(22, 56, 100);
+
+}
+.bash-zwei p{
+    padding: 10px 0;
+}
+.num{
+    display: flex;
+    gap: 30px;
+
+}
+.students{
+    width: 100px;
+    font-size: 20px;
+
+}
+.students div{
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(22, 56, 100);
+    width: 90px;
+    text-align: center;
+}
+.training{
+    width: 100px;
+    font-size: 20px;
+}
+.training div{
+    font-size: 35px;
+    color: rgb(22, 56, 100);
+    font-weight: bolder;
+    text-align: center;
+    width: 180px;
+
+}
+.haqqimizda{
+    padding-top: 140px;
+}
+.haqqimizda h1{
+    font-size: 35px;
+    color: rgb(22, 56, 100);
+    text-align: center;
+}
+
+.about-us{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.us p{
+    font-size: 20px;
+    width:700px
+}
